@@ -22,13 +22,13 @@ function iLoveTheBeatles(num){
   var newArray = [];
   var i;
   if (num < 15) {
-    i = 15 - num;
+    i = 15 - num - 1;
   }
   newArray.length = i;
   do {
     newArray[i] = 'I love the Beatles!';
     i--;
   }
-  while (i > 0); 
+  while (i >= 0); 
   return newArray;
 }
