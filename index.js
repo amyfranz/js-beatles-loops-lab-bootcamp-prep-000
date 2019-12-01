@@ -24,11 +24,12 @@ function iLoveTheBeatles(num){
   if (num < 15) {
     i = 15 - num;
   }
-  newArray.length = i;
+  return i;
+  
+ /* newArray.length = i;
   do {
     newArray[i] = 'I love the Beatles!';
     i--;
   }
-  while (i > 0); 
-  return newArray;
+  while (i > 0); */
 }
