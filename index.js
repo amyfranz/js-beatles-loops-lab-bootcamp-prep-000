@@ -24,6 +24,9 @@ function iLoveTheBeatles(num){
   if (num < 15) {
     i = 15 - num - 1;
   }
+  else {
+    i = 1;
+  }
   newArray.length = i;
   do {
     newArray[i] = 'I love the Beatles!';
