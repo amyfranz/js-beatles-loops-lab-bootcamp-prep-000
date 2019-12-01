@@ -27,6 +27,8 @@ function iLoveTheBeatles(num){
   newArray.length = i;
   do {
     newArray[i] = 'I love the Beatles!';
-  while (i > 0) 
+    i--;
+  while (i > 0); 
   }
+  return newArray;
 }
