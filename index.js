@@ -30,5 +30,5 @@ function iLoveTheBeatles(num){
     i--;
   }
   while (i > 0); 
-  return newArray [3];
+  return newArray [1];
 }
