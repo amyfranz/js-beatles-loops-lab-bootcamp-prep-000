@@ -25,7 +25,7 @@ function iLoveTheBeatles(num){
     i = 15 - num - 1;
   }
   else {
-    i = 1;
+    i = 0;
   }
   newArray.length = i;
   do {
